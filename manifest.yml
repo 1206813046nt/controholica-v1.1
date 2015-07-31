@@ -1,0 +1,14 @@
+applications:
+- services:
+  - controholica-v1-MAS
+  - controholica-v1-Push
+  - controholica-v1-MobileData
+  - controholica-v1-Mobile Quality Assurance
+  disk_quota: 1024M
+  host: controholica-v1
+  name: controholica-v1
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M
